@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cb-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb" />
+      <stop offset="100%" stop-color="#fef3c7" />
+    </linearGradient>
+    <linearGradient id="cb-badge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" rx="16" fill="url(#cb-bg)"/>
+
+  <!-- Browser window frame -->
+  <rect x="50" y="45" width="700" height="410" rx="10" fill="#fffdfa" stroke="#fed7aa" stroke-width="1.5"/>
+  <!-- Window dots -->
+  <circle cx="75" cy="65" r="5" fill="#fca5a5"/>
+  <circle cx="95" cy="65" r="5" fill="#fde047"/>
+  <circle cx="115" cy="65" r="5" fill="#86efac"/>
+  <rect x="145" y="56" width="300" height="18" rx="4" fill="#ffedd5"/>
+  <text x="155" y="69" fill="#9a3412" font-family="'Zen Maru Gothic', sans-serif" font-size="11">cafe-blossom.jp</text>
+
+  <!-- Notification bar -->
+  <rect x="50" y="85" width="700" height="26" fill="#fef3c7"/>
+  <text x="400" y="102" fill="#b45309" font-family="'Zen Maru Gothic', sans-serif" font-size="10" font-weight="700" text-anchor="middle">🌸 2026年11月 グランドオープン！ Instagramフォローで焼き菓子プレゼント ☕</text>
+
+  <!-- Navigation -->
+  <text x="75" y="140" fill="#78350f" font-family="'Quicksand', sans-serif" font-weight="700" font-size="18">Cafe Blossom</text>
+  <text x="440" y="138" fill="#92400e" font-family="'Zen Maru Gothic', sans-serif" font-size="11">コンセプト</text>
+  <text x="515" y="138" fill="#92400e" font-family="'Zen Maru Gothic', sans-serif" font-size="11">メニュー</text>
+  <text x="580" y="138" fill="#92400e" font-family="'Zen Maru Gothic', sans-serif" font-size="11">アクセス</text>
+  <rect x="635" y="122" width="90" height="25" rx="12" fill="url(#cb-badge)"/>
+  <text x="653" y="138" fill="#ffffff" font-family="'Zen Maru Gothic', sans-serif" font-weight="700" font-size="10">来店予約・MAP</text>
+
+  <!-- Hero Content -->
+  <rect x="75" y="165" width="85" height="20" rx="10" fill="#fef08a"/>
+  <text x="87" y="179" fill="#854d0e" font-family="'Zen Maru Gothic', sans-serif" font-weight="700" font-size="10">NEW OPEN</text>
+
+  <text x="75" y="215" fill="#78350f" font-family="'Zen Maru Gothic', sans-serif" font-weight="700" font-size="22">街角に咲く、</text>
+  <text x="75" y="245" fill="#78350f" font-family="'Zen Maru Gothic', sans-serif" font-weight="700" font-size="22">ちいさな温もりと珈琲の香り。</text>
+  <text x="75" y="275" fill="#92400e" font-family="'Zen Maru Gothic', sans-serif" font-size="11">素材にこだわった手作りスイーツと、ハンドドリップで丁寧に淹れる至福の一杯。</text>
+
+  <rect x="75" y="300" width="130" height="34" rx="17" fill="url(#cb-badge)"/>
+  <text x="105" y="321" fill="#ffffff" font-family="'Zen Maru Gothic', sans-serif" font-weight="700" font-size="11">メニューを見る</text>
+
+  <!-- Illustration on the right -->
+  <rect x="440" y="175" width="280" height="240" rx="12" fill="#fff7ed" stroke="#fed7aa"/>
+  <circle cx="580" cy="275" r="50" fill="#fde68a" opacity="0.6"/>
+  <path d="M545 290 Q 580 240, 615 290 Z" fill="#b45309"/>
+  <!-- Coffee cup silhouette -->
+  <rect x="560" y="270" width="40" height="35" rx="6" fill="#78350f"/>
+  <path d="M600 275 C 612 275, 612 290, 600 290" fill="none" stroke="#78350f" stroke-width="4"/>
+  <path d="M570 260 Q 575 250, 570 240" fill="none" stroke="#d97706" stroke-width="2"/>
+  <path d="M580 260 Q 585 248, 580 238" fill="none" stroke="#d97706" stroke-width="2"/>
+  <text x="580" y="340" fill="#78350f" font-family="'Zen Maru Gothic', sans-serif" font-weight="700" font-size="13" text-anchor="middle">こだわりの自家焙煎珈琲</text>
+  <text x="580" y="365" fill="#a16207" font-family="'Zen Maru Gothic', sans-serif" font-size="10" text-anchor="middle">朝7:30〜 モーニング営業中</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="uc-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" rx="16" fill="url(#uc-bg)"/>
+
+  <!-- Browser window frame -->
+  <rect x="50" y="45" width="700" height="410" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <!-- Window dots -->
+  <circle cx="75" cy="65" r="5" fill="#e2e8f0"/>
+  <circle cx="95" cy="65" r="5" fill="#e2e8f0"/>
+  <circle cx="115" cy="65" r="5" fill="#e2e8f0"/>
+  <rect x="145" y="56" width="300" height="18" rx="4" fill="#f1f5f9"/>
+  <text x="155" y="69" fill="#64748b" font-family="'Inter', sans-serif" font-size="11">urbancloset-apparel.jp</text>
+
+  <!-- Minimal Header -->
+  <text x="75" y="112" fill="#0f172a" font-family="'Inter', sans-serif" font-weight="700" font-size="17" letter-spacing="2">URBAN CLOSET</text>
+  <text x="440" y="110" fill="#64748b" font-family="'Inter', sans-serif" font-size="11" letter-spacing="1">COLLECTION</text>
+  <text x="535" y="110" fill="#64748b" font-family="'Inter', sans-serif" font-size="11" letter-spacing="1">LOOKBOOK</text>
+  <text x="620" y="110" fill="#64748b" font-family="'Inter', sans-serif" font-size="11" letter-spacing="1">ABOUT</text>
+  <text x="685" y="110" fill="#0f172a" font-family="'Inter', sans-serif" font-size="11" font-weight="600">BAG (0)</text>
+
+  <line x1="50" y1="128" x2="750" y2="128" stroke="#f1f5f9" stroke-width="1"/>
+
+  <!-- Fashion Split Layout -->
+  <!-- Left Side: Hero Image Mockup -->
+  <rect x="75" y="145" width="320" height="280" rx="4" fill="#1e293b"/>
+  <path d="M75 320 L 180 220 L 260 270 L 340 180 L 395 240 L 395 425 L 75 425 Z" fill="#334155" opacity="0.6"/>
+  <circle cx="160" cy="220" r="28" fill="#475569"/>
+  <!-- Fashion badge -->
+  <rect x="95" y="165" width="95" height="22" rx="3" fill="#ffffff"/>
+  <text x="103" y="180" fill="#0f172a" font-family="'Inter', sans-serif" font-weight="700" font-size="9" letter-spacing="1.5">2026 AUTUMN</text>
+
+  <!-- Right Side: Editorial Info & Product Grid -->
+  <text x="430" y="180" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="10" letter-spacing="2">MINIMAL &amp; TIMELESS</text>
+  <text x="430" y="215" fill="#0f172a" font-family="'Noto Sans JP', sans-serif" font-weight="700" font-size="22">都市に生きる人の、</text>
+  <text x="430" y="245" fill="#0f172a" font-family="'Noto Sans JP', sans-serif" font-weight="700" font-size="22">新しいワードローブ。</text>
+  <text x="430" y="275" fill="#64748b" font-family="'Noto Sans JP', sans-serif" font-size="11" line-height="1.6">性別やシーンの境界を越える、上質で洗練されたシルエット。</text>
+
+  <!-- 2 Product Mini Cards -->
+  <rect x="430" y="305" width="135" height="120" rx="4" fill="#f8fafc" stroke="#e2e8f0"/>
+  <rect x="440" y="315" width="115" height="65" rx="2" fill="#e2e8f0"/>
+  <text x="440" y="395" fill="#0f172a" font-family="'Inter', sans-serif" font-weight="600" font-size="10">Oversized Coat</text>
+  <text x="440" y="412" fill="#64748b" font-family="'Inter', sans-serif" font-size="10">¥38,500</text>
+
+  <rect x="585" y="305" width="135" height="120" rx="4" fill="#f8fafc" stroke="#e2e8f0"/>
+  <rect x="595" y="315" width="115" height="65" rx="2" fill="#cbd5e1"/>
+  <text x="595" y="395" fill="#0f172a" font-family="'Inter', sans-serif" font-weight="600" font-size="10">Wool Knit Pullover</text>
+  <text x="595" y="412" fill="#64748b" font-family="'Inter', sans-serif" font-size="10">¥19,800</text>
+</svg>
